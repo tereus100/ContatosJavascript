@@ -1,0 +1,145 @@
+body {
+    background-color: #D3D3D3;
+}
+.cabecalho {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.textoHeader {
+    font-size: 50px;
+    color:black;
+    padding: 0px 20px 0px 30px;
+    font-family:Courier New;
+}
+.imgContato {
+    width: 80px;
+    height: 80px;
+    padding: 25px 20px 0px 0px;
+}
+.formulario {
+    width: 100%;
+}
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+.nome {
+    width: 79.5%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px 10px;
+}
+.telefone {
+    width: 30%;
+    height:40px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px 10px;
+    margin: 5px;
+
+}
+.email {
+    width: 50%;
+    height:40px;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 10px 10px;
+    margin: 5px;
+}
+.telefoneEmail {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.botaoPrincipal {
+    width: 95%;
+    margin: 30px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.buttonAdicionar {
+    background-color: green;
+    width: 120px;
+    color: white;
+    height: 40px;
+    font-size: 20px;
+    margin: 0px 30px 0px 0px;
+    border-style: solid;
+    border-radius: 5px 5px;
+}
+.buttonExcluir {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    border-style: solid;
+    border-radius: 5px 5px;
+}
+.anotacao {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.marcador {
+    width: 20px;
+    height: 20px;
+    border-style: white;
+}
+.letras {
+    font-size: 25px;
+}
+.linha {
+    width: 80%;
+    background-color: black;
+    height:2px;
+    margin: 0 auto;
+}
+@media only screen and (max-width: 620px) {
+    .cabecalho {
+      display: block;
+      text-align: center;
+      font-size: 20px;
+    }
+    .container1 {
+        display: block;
+        width: 102%;
+    }
+    .container2 {
+        display: block;
+        width: 80%;
+    }
+    .telefone,
+    .email {
+        width: 100%;
+    }
+    .textoHeader {
+        font-size: 35px;
+        margin: 10px 20px 10px 0px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    .anotacao {
+      display: block;
+      width:100%;
+      margin: 20px 0px 0px 0px;
+      text-align: center;
+      font-size: 20px;
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+    <title>Document</title>
+</head>
+<body>
+   <header>
+<nav class="cabecalho">
+    <img class="imgContato" src="assets/imagens/Contato.jpg"  alt="ImagemContato">
+    <h1 class="textoHeader"> Meus</h1>
+    <h1 class="textoHeader"> Contatos</h1>
+</nav>
+   </header>
+  <main class="principal">
+    <section class="formulario">
+        <form>
+         <input id="nome" class="nome"  type="text" placeholder=" Nome completo" name="nome"/><br><br>
+         <article class="telefoneEmail">
+          <input id="telefone" class="telefone"  type="text" placeholder=" Telefone" name="telefone"/><br><br>
+         <input id="email" class="email"  type="text" placeholder=" E-mail" name="email"/><br><br>
+
+         </article>
+         
+        </form>
+    </section>
+    <article class="botaoPrincipal">
+        <button onclick="adicionarContato()" class="buttonAdicionar">Adicionar +</button>
+        <button onclick="excluirContato()" class="buttonExcluir">Excluir -</button>
+    </article>
+    <aside class="anotacao">
+        <form>
+            <input class="marcador" type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        </form> 
+        <p id="nomeTexto" class="letras">Nome </p>
+        <p id="telefoneTexto" class="letras">Telefone </p>
+        <p id="emailTexto" class="letras">E-mail</p>
+    </aside>
+    <hr class="linha">
+  </main>
+   <footer>
+   </footer>
+   <script src="index.js">
+    
+   </script>
+</body>
+</html>
